@@ -1,0 +1,15 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mobile-nav li {
+    @apply  w-full h-full border-b-2 text-center;
+
+}
+.btn{
+    @apply  bg-black px-5 py-2 rounded-md hover:border-2 border-white border-solid 
+}
+html{
+    scroll-behavior: smooth;
+}
