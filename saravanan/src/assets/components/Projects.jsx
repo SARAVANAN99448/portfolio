@@ -35,6 +35,7 @@ const config =
 
 const Project = () => {
     return (<>
+    <section>
         <div className="bg-black flex flex-col justify-center " id="projects">
             <div className=" text-center md:px-5 text-white   flex flex-col justify-center  gap-3  ">
                 <h1 className="text-4xl decoration-white underline mb-5 mt-5 font-bold ">Projects</h1>
@@ -57,6 +58,7 @@ const Project = () => {
             </div>
         </div>
         <hr />
+        </section>
     </>)
 
 }

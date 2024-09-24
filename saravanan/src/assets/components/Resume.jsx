@@ -12,7 +12,7 @@ const Resume = () => {
                 <div className="md:w-1/2 flex justify-center items-center mt-5">
                     <div className="text-white flex flex-col gap-5">
                         <h1 className="text-3xl underline  w-36 font-bold">Resume  </h1>
-                        <p>You can view my resume here <a className="btn" href={resume} download={"resume"} style={{ backgroundColor: "green" }}>Download</a></p>
+                        <p>You can view my resume here <a className="btn p-1" href={resume} download={"resume"} style={{ backgroundColor: "green" }}>Download</a></p>
                     </div>
                 </div>
             </div>

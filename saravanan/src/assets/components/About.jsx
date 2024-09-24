@@ -1,6 +1,7 @@
 import Aboutimg from "../images/about-img.jpg"
 const About = () => {
     return (< >
+    <section>
         <div className=" md:flex justify-between py-10 px-5  bg-black " id="about">
             <div className="md:w-1/2 flex justify-center  ">
                 {/* About image  */}
@@ -16,6 +17,7 @@ const About = () => {
             </div>
         </div>
         <hr />
+        </section>
     </>)
 
 }

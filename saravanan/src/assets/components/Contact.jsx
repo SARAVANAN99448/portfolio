@@ -1,6 +1,7 @@
 const Contact = () => {
     return (
         <>
+        <section>
             <h1 id="contact" className="text-4xl text-white font-bold bg-black text-center py-5 underline">Contact</h1>
             {/* Conatct form */}
             <form className="bg-black text-white  font-hero-font md:px-44 px-20  flex flex-col  " >
@@ -11,6 +12,7 @@ const Contact = () => {
                 <span>Message : </span>
                 <textarea name="" id="" className="md:w-full rounded-md text-black p-3 outline-none mt-3" required></textarea>
             </form>
+            </section>
         </>
     )
 
