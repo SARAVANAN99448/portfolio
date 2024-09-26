@@ -17,8 +17,8 @@ const Hero = () => {
                 <h1 className=" text-4xl  md:text-6xl mb-3 text-white">Hi, <br />am Saravanan R</h1>
                 <p className="text-pretty md:text-2xl text-white font-bold "> I am  <span className="font-bold text-white">{text}</span><span className="text-green-400"><Cursor cursorStyle="|" /></span></p>
                 <div className=" hidden md:flex gap-10 md:py-10 py-5 ">
-                    <a href="https://github.com/SARAVANAN99448?tab=repositories" className="text-4xl text-white"><AiOutlineGithub /></a>
-                    <a href="https://www.linkedin.com/in/saravanan012/" className="text-4xl text-white"><AiOutlineLinkedin /></a>
+                    <a href="https://github.com/SARAVANAN99448?tab=repositories" target="_blank" className="text-4xl text-white"><AiOutlineGithub /></a>
+                    <a href="https://www.linkedin.com/in/saravanan012/"  target="_blank" className="text-4xl text-white"><AiOutlineLinkedin /></a>
                     <a href="https://www.naukri.com/mnjuser/profile?id=&altresid" className="text-4xl text-white"></a>
                 </div>
             </div>

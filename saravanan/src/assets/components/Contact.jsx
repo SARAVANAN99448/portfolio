@@ -10,7 +10,10 @@ const Contact = () => {
                 <span>E-mail : </span>
                 <input type="text" className="md:w-full rounded-md text-black p-3  outline-none  mt-3" required /><br />
                 <span>Message : </span>
-                <textarea name="" id="" className="md:w-full rounded-md text-black p-3 outline-none mt-3" required></textarea>
+                <textarea name="" id="" className="md:w-full rounded-md text-black p-3 outline-none mt-3" required></textarea> <br />
+                <div className="text-center">
+                <button className="border w-24 p-2 rounded-md">Submit</button>
+                </div>
             </form>
             </section>
         </>
